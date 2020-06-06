@@ -5,12 +5,56 @@ your voice is sad
 my soul is lovestruck. In dreams I fly
 my fears are wintergreen
 the moon is absentminded
+despair is unrecalled
+my life is worthlessness
 
 shout the walls
 say the night
 
+(training set initialise)
+(needs to be [[0,0,1],[1,1,1],[1,0,1],[0,1,1]])
+let confusion at despair be despair
+let confusion at my fears be despair
+let confusion at the moon be my fears
+whisper confusion
+
+let confidence at despair be my fears
+let confidence at my fears be my fears
+let confidence at the moon be my fears
+whisper confidence
+
+let enlightenment at despair be my fears
+let enlightenment at my fears be despair
+let enlightenment at the moon be my fears
+whisper enlightenment
+
+let obscurity at despair be despair
+let obscurity at my fears be my fears
+let obscurity at the moon be my fears
+whisper obscurity
+
+(final assignment of training data to array)
+knowledge is mysterious
+whisper "now"
+let knowledge at despair be confusion
+whisper "I"
+let knowledge at my fears be confidence
+whisper "am"
+let knowledge at the moon be enlightenment
+whisper "here"
+let knowledge at my life be obscurity
+
+whisper knowledge
+
+(training output initialise)
+(needs to be [0,1,1,0])
+Let the truth at despair be despair!
+Let the truth at my fears be my fears!
+Let the truth at the moon be my fears!
+Let the truth at my life be despair!
+
 (stub for network inference)
-Emotion takes your voice 
+emotion takes your voice 
 a glimpse is mysterious
 put your voice into a glimpse
 give back a glimpse
@@ -23,7 +67,6 @@ turn down the flame
 let my soul be without the flame 
 let my soul be of the moon
 let my soul be without my fears
-(whisper my soul)
 give back my soul
 
 (output stubs)
