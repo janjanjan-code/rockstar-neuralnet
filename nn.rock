@@ -34,14 +34,9 @@ let obscurity at the moon be my fears
 whisper obscurity
 
 (final assignment of training data to array)
-knowledge is mysterious
-whisper "now"
 let knowledge at despair be confusion
-whisper "I"
 let knowledge at my fears be confidence
-whisper "am"
 let knowledge at the moon be enlightenment
-whisper "here"
 let knowledge at my life be obscurity
 
 whisper knowledge
@@ -68,6 +63,18 @@ let my soul be without the flame
 let my soul be of the moon
 let my soul be without my fears
 give back my soul
+
+(dot function)
+
+(create initial weights)
+
+(sigmoid)
+
+(sigmoid derivative)
+
+(inference)
+
+
 
 (output stubs)
 whisper your voice
