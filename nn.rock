@@ -1,79 +1,139 @@
-(variable declaration)
 the walls are complete, I do lie 
 the night is so absolute but not I 
-your voice is sad
-my soul is lovestruck. In dreams I fly
-my fears are wintergreen
-the moon is absentminded
-despair is unrecalled
-my life is worthlessness
+your voice is sad 
+my soul is lovestruck. In dreams I fly 
 
-shout the walls
-say the night
+despair is unrecalled 
+my fears are wintergreen 
+the moon is absentminded 
 
-(training set initialise)
-(needs to be [[0,0,1],[1,1,1],[1,0,1],[0,1,1]])
-let confusion at despair be despair
-let confusion at my fears be despair
-let confusion at the moon be my fears
-whisper confusion
+let knowledge at despair be despair
+let knowledge at my fears be despair
+let knowledge at the moon be my fears
 
-let confidence at despair be my fears
-let confidence at my fears be my fears
-let confidence at the moon be my fears
-whisper confidence
+my life is worthlessness 
+confusion is hate 
+ice is water 
 
-let enlightenment at despair be my fears
-let enlightenment at my fears be despair
-let enlightenment at the moon be my fears
-whisper enlightenment
+let knowledge at my life be my fears
+let knowledge at confusion be my fears
+let knowledge at ice be my fears
 
-let obscurity at despair be despair
-let obscurity at my fears be my fears
-let obscurity at the moon be my fears
-whisper obscurity
+confidence is desire 
+happiness is forever 
+the waiting is absolute 
 
-(final assignment of training data to array)
-knowledge is mysterious
-whisper "now"
-let knowledge at despair be confusion
-whisper "I"
-let knowledge at my fears be confidence
-whisper "am"
-let knowledge at the moon be enlightenment
-whisper "here"
-let knowledge at my life be obscurity
+let knowledge at confidence be my fears
+let knowledge at happiness be despair
+let knowledge at the waiting be my fears
 
-whisper knowledge
+obscurity is nighttime 
+the void is intelligent unforgiven 
+enlightenment is a declaration 
 
-(training output initialise)
-(needs to be [0,1,1,0])
+let knowledge at obscurity be despair
+let knowledge at the void be my fears
+let knowledge at enlightenment be my fears
+
 Let the truth at despair be despair!
 Let the truth at my fears be my fears!
 Let the truth at the moon be my fears!
 Let the truth at my life be despair!
 
-(stub for network inference)
-emotion takes your voice 
-a glimpse is mysterious
-put your voice into a glimpse
-give back a glimpse
-
-(random number generator hack for -1 to 1)
-my imagination takes my soul and the moon
+my imagination takes the moon and my soul
 put the walls of my soul into my soul
 put my soul into the flame
 turn down the flame
 let my soul be without the flame 
 let my soul be of the moon
 let my soul be without my fears
+whisper my soul
 give back my soul
 
-(output stubs)
-whisper your voice
+the oil takes the void and the starlight
+the colours are surrounding 
+put the void into the candle 
+While the candle ain't nothing 
+put my fears with the starlight of the colours over the candle into the colours
+Knock the candle down
+
+give back the colours
+
+the future takes the words
+put despair without the words into a light (negate x)
+put my fears with the oil taking the void, a light into my hope (1 + e^-x)
+put my fears over my hope into tomorrow
+give back tomorrow
+
+signals takes the starlight
+put my fears without the starlight into the night
+put the starlight of the night into the stars! 
+give back the stars
+
+thinking takes my senses
+my breath is breathless
+the dream is lovestruck
+until my breath is stronger than my mind
+let the story be my senses at my breath
+let the prose be my mind at my breath
+let the suggestion be the prose of the story
+let the dream be with the suggestion (Let the dream be the fusing taking my senses, my mind)
+build my breath up
+
+put the future taking the dream into the dream
+give back the dream 
+
+the journey takes the miles
+the step is navigation
+until the step is the miles
+whisper the step
+let the route be despair
+until the route is stronger than my life
+let your influence be your voice of the route
+let my direction be despair with your influence
+let the map at despair be knowledge at my direction
+let my speed be my fears with your influence
+let the map at my fears be knowledge at my speed
+let my height be the moon with your influence
+let the map at the moon be knowledge at my height
+Let the hardship be thinking taking the map  
+let the answer be the truth at the route 
+let the fallacy be the answer without the hardship 
+let the path be signals taking the hardship 
+let my problems be the fallacy of the path
+my conscious is astounding
+until my conscious is my mind
+let the end be the map at my conscious
+let the adaption be the end of my problems 
+let my mind at my conscious be with the adaption
+build my conscious up
+
+build the route up
+
+build the step up
+
+give back my mind
+
+whisper "the nightmare is beginning..."
+
 shout my soul
-my thoughts are mysterious
-put emotion taking your voice into my thoughts 
-whisper my thoughts
-put my imagination taking my soul, the moon into my thoughts
-whisper my thoughts
+let my mind at despair be my imagination taking the moon, my soul
+let my mind at my fears be my imagination taking the moon, my mind at despair
+let my mind at the moon be my imagination taking the moon, my mind at my fears
+
+the miles are a superpower wastefully abandoning urbaneness
+whisper the miles
+Let your life be the journey taking the miles
+whisper "after the nightmare"
+my conscious is astounding
+until my conscious is my mind
+whisper my mind at my conscious 
+build my conscious up
+
+whisper "what is new?"
+Let your memory at despair be my fears
+Let your memory at my fears be despair!
+Let your memory at the moon be despair!
+Let the voice be thinking taking your memory
+scream the voice!
+
