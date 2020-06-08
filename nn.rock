@@ -1,53 +1,45 @@
-(variable declaration)
 the walls are complete, I do lie 
 the night is so absolute but not I 
-your voice is sad (3)
-my soul is lovestruck. In dreams I fly (initial seed for nn rand function - must have a decimal part)
-despair is unrecalled (0)
-my fears are wintergreen (1)
-the moon is absentminded (2)
-my life is worthlessness (3)
-confusion is hate (4)
-ice is water (5)
-confidence is desire (6)
-happiness is forever (7)
-the waiting is absolute (8)
-obscurity is nighttime (9)
-the void is intelligent unforgiven (10)
-enlightenment is a declaration (11)
+your voice is sad 
+my soul is lovestruck. In dreams I fly 
 
-(training set initialise)
-(needs to be [[0,0,1],[1,1,1],[1,0,1],[0,1,1]])
+despair is unrecalled 
+my fears are wintergreen 
+the moon is absentminded 
+
 let knowledge at despair be despair
 let knowledge at my fears be despair
 let knowledge at the moon be my fears
+
+my life is worthlessness 
+confusion is hate 
+ice is water 
 
 let knowledge at my life be my fears
 let knowledge at confusion be my fears
 let knowledge at ice be my fears
 
+confidence is desire 
+happiness is forever 
+the waiting is absolute 
+
 let knowledge at confidence be my fears
 let knowledge at happiness be despair
 let knowledge at the waiting be my fears
+
+obscurity is nighttime 
+the void is intelligent unforgiven 
+enlightenment is a declaration 
 
 let knowledge at obscurity be despair
 let knowledge at the void be my fears
 let knowledge at enlightenment be my fears
 
-(training output initialise)
-(needs to be [[0,1,1,0]])
 Let the truth at despair be despair!
 Let the truth at my fears be my fears!
 Let the truth at the moon be my fears!
 Let the truth at my life be despair!
 
-(stub for network inference)
-emotion takes your voice 
-a glimpse is mysterious
-put your voice into a glimpse
-give back a glimpse
-
-(random number generator hack for -1 to 1)
 my imagination takes the moon and my soul
 put the walls of my soul into my soul
 put my soul into the flame
@@ -58,7 +50,6 @@ let my soul be without my fears
 whisper my soul
 give back my soul
 
-(powers of e using Taylor series expansion - 11 steps)
 the oil takes the void and the starlight
 the colours are surrounding 
 put the void into the candle 
@@ -68,22 +59,17 @@ Knock the candle down
 
 give back the colours
 
-(sigmoid)
 the future takes the words
 put despair without the words into a light (negate x)
 put my fears with the oil taking the void, a light into my hope (1 + e^-x)
 put my fears over my hope into tomorrow
 give back tomorrow
 
-
-(sigmoid derivative)
 signals takes the starlight
 put my fears without the starlight into the night
 put the starlight of the night into the stars! 
 give back the stars
 
-
-(inference)
 thinking takes my senses
 my breath is breathless
 the dream is lovestruck
@@ -97,7 +83,6 @@ build my breath up
 put the future taking the dream into the dream
 give back the dream 
 
-(training)
 the journey takes the miles
 the step is navigation
 until the step is the miles
@@ -111,25 +96,16 @@ let my speed be my fears with your influence
 let the map at my fears be knowledge at my speed
 let my height be the moon with your influence
 let the map at the moon be knowledge at my height
-Let the hardship be thinking taking the map (output scalar) 
-whisper "predicted"
-whisper the hardship
-whisper "truth"
-whisper the truth at the route
-let the answer be the truth at the route (get appropriate answer)
-let the fallacy be the answer without the hardship (error = truth - prediction)
-whisper "the fallacy"
-whisper the fallacy
-let the path be signals taking the hardship (sigmoid derivative output)
-let my problems be the fallacy of the path (problems are error times sigmoid derivative output)
+Let the hardship be thinking taking the map  
+let the answer be the truth at the route 
+let the fallacy be the answer without the hardship 
+let the path be signals taking the hardship 
+let my problems be the fallacy of the path
 my conscious is astounding
 until my conscious is my mind
 let the end be the map at my conscious
-let the adaption be the end of my problems (adjustment to the weights for this training run)
-whisper "adaption"
-whisper the adaption
+let the adaption be the end of my problems 
 let my mind at my conscious be with the adaption
-whisper my mind at my conscious
 build my conscious up
 
 build the route up
@@ -138,34 +114,26 @@ build the step up
 
 give back my mind
 
-(main code)
-(output ininitialising)
 whisper "the nightmare is beginning..."
 
-(create initial weights based on random number seed and iterating)
 shout my soul
 let my mind at despair be my imagination taking the moon, my soul
 let my mind at my fears be my imagination taking the moon, my mind at despair
 let my mind at the moon be my imagination taking the moon, my mind at my fears
 
-(set training limit)
 the miles are a superpower wastefully abandoning urbaneness
 whisper the miles
-(run training)
 Let your life be the journey taking the miles
-whisper "after training"
-(print weights after training)
+whisper "after the nightmare"
 my conscious is astounding
 until my conscious is my mind
 whisper my mind at my conscious 
 build my conscious up
 
-whisper "new prediction from 1,0,0"
-(test a new situation)
+whisper "what is new?"
 Let your memory at despair be my fears
 Let your memory at my fears be despair!
 Let your memory at the moon be despair!
-(infer)
 Let the voice be thinking taking your memory
 scream the voice!
 
